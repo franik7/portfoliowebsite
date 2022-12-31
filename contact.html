@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+
+    <title>Frants' Website</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+        <div id="headerlogo">
+            <a href="index.html"><img src="img/logo.gif" alt="Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="photogallery.html">Photos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Style -->
+
+    <style>
+        @keyframes animate {
+            0% {
+                background-color: white;
+            }
+
+            25% {
+                background-color: #36454F;
+            }
+
+            50% {
+                background-color: white;
+            }
+
+            100% {
+                background-color: #36454F;
+            }
+        }
+    </style>
+
+    <!-- Contact Form -->
+
+    <section class="accent1 p40">
+        <div class="contactcontainer">
+            <div class="c100contact animateform">
+
+                <title>Contact Us</title>
+                <h1>Contact Us</h1>
+                <br>
+                Please let us know if you have any questions by filling the below form.
+                <br>
+                <br>
+
+                <form>
+                    <label>
+                        Name<br>
+                        <input type="text" name="nm" placeholder="Bob Garcia" required style=" min-width:300px; max-width:100%;height:100%;width:100%;">
+                    </label>
+                    <br>
+                    <label>
+                        Email<br>
+                        <input type="email" name="em" placeholder="bob@gmail.com" required style=" min-width:300px; max-width:100%;height:100%;width:100%;">
+                    </label>
+                    <br>
+                    <label>
+                        Tel<br>
+                        <input type="tel" name="tl" placeholder="212-123-4567" required style=" min-width:300px; max-width:100%;height:100%;width:100%;">
+                    </label>
+                    <br>
+
+                    <label>
+                        Message<br>
+                        <textarea name="message" placeholder="Message..." class="form-control" style=" min-width:300px; max-width:100%;min-height:50px;height:100%;width:100%;"></textarea>
+                    </label>
+                    <br>
+                    <br>
+                    <input type="submit" value="Send Now" class="SNbutton">
+
+                </form>
+            </div>
+
+
+        </div>
+
+    </section>
+</body></html>
