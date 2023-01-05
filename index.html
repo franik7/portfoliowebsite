@@ -1,0 +1,262 @@
+<!--
+
+Icons
+Animate
+Font change
+Google font
+Mobile responsiveness
+What is Bootstrap?
+
+Optimize:
+COlor pallette
+Text formatting
+
+
+-->
+
+
+<!doctype html>
+
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/3e428fbdcd.js" crossorigin="anonymous"></script>
+    <title>Frants' Website
+    </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <!-- Style -->
+
+    <style>
+        a {
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+
+        @keyframes animate {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .circle_image {
+            border-radius: 50%;
+            overflow: hidden;
+            width: 400px;
+
+        }
+
+        .circle_image img {
+            width: 100%;
+            height: 100%;
+
+        }
+
+
+        @media screen and (max-width: 800px) {
+            .column {
+                float: none;
+            }
+
+            .c33,
+            .c50,
+            .c100 {
+                width: 100%;
+            }
+
+            .accent2 {
+                margin: 0px;
+            }
+
+            .accent1 {
+                margin: 0px;
+                padding: 10px;
+                padding-top: 20px;
+            }
+
+            .block1 {
+                order: 1;
+            }
+
+            .block3 {
+                order: 2;
+            }
+
+            .block2 {
+                order: 3;
+            }
+
+            .block4 {
+                order: 4;
+            }
+
+            .block5 {
+                order: 5;
+            }
+
+            .block7 {
+                order: 6;
+            }
+
+            .block6 {
+                order: 7;
+            }
+
+            .block8 {
+                order: 8;
+            }
+
+            .circle_image {
+                border-radius: 50%;
+                overflow: hidden;
+                width: 300px;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+
+            .circle_image img {
+                width: 100%;
+                height: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+        }
+
+    </style>
+
+    <!-- Hero -->
+
+    <section class="accent1 p40">
+        <div class="containertop">
+            <div class="c50">
+                <h1>About Me</h1>
+                <br>
+                My name is Frants and I live in NYC. In my spare time I love to watch and play soccer, travel, and learn new things. I am looking forward to a career change and would like to become a developer. Please contact me if you have any questions. Some of the things I have an interest in:
+                <br>
+                <br>
+                <ul>
+                    <li> Web Development <i class="fa-solid fa-code"></i> </li>
+                    <li> Reading <i class="fa-solid fa-book"></i></li>
+                    <li>Soccer <i class="fa-solid fa-futbol"></i> </li>
+                    <li>Travelling <i class="fa-solid fa-plane"></i></li>
+                    <br>
+
+
+                </ul>
+
+
+            </div>
+
+            <div class="c50">
+                <div class="animateimg circle_image">
+                    <img src="img/avatar.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Middle Part -->
+
+
+    <section class="accent2 p10">
+        <div class="containerbottom">
+            <div class="c50 block1">
+                <h1>Where I Want to Be</h1>
+                <p>Taking a full-stack web development class at CUNY City Tech in order to be able to do a career change from financial field to a role in web development</p>
+                <br>
+            </div>
+
+            <div class="c50 block2">
+                <h1>Where I Am Now</h1>
+                <p>10+ year career in a financial field with knowledge of retail and commercial banking, KYC, compliance and process and software testing. ACAMS certified. Please click <a href="https://www.linkedin.com/in/frants-kavalionak/"><i class="fa-brands fa-linkedin"></i></a> for my LinkedIn</p>
+                <br>
+
+            </div>
+
+            <div class="c50 block3">
+                <img src="img/webdev.jpg">
+            </div>
+
+            <div class="c50 block4">
+                <img src="img/compliance.jpg">
+            </div>
+
+
+
+            <div class="c50 block5">
+                <h1>Hobbies and Personal</h1>
+                <p>In my spare time, I am most likely watching or playing soccer, reading books, travelling and enjoying life</p>
+                <br>
+            </div>
+
+            <div class="c50 block6">
+                <h1>Photo Gallery</h1>
+                <p>Some of the photos of the places I visited in the past year. Most photos are from Europe. Click the picture below to access </p>
+                <br>
+            </div>
+
+            <div class="c50 block7">
+               <img src="img/soccer.jpg">
+            </div>
+
+            <div class="c50 block8">
+                <a href = photogallery.html> <img src="img/travel.jpg"></a>
+            </div>
+
+        </div>
+
+        <!-- Bottom Part -->
+
+    </section>
+
+    <section class="accent1 p40">
+        <div class="containerfooter">
+            <div class="c100">
+                <p>Please use
+                    <a href="https://www.linkedin.com/in/frants-kavalionak/"><i class="fa-brands fa-2x fa-linkedin"></i>
+                        or contact form on this website for contact.
+                    </a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Header -->
+
+    <header>
+        <div id="headerlogo">
+            <a href="index.html"><img src="img/logo.gif" alt="Logo"></a>
+        </div>
+
+        <nav>
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="photogallery.html">Photos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+</body></html>
