@@ -91,17 +91,6 @@ nav li li:hover a {
 	width: 70px;
 	height: 70px;
 	padding: 5px;
-
-}
-
-#textpad {
-	padding-right: 10px;
-	text-align: justify;
-}
-
-
-.p5 {
-	padding: 5px;
 }
 
 .p10 {
@@ -110,30 +99,19 @@ nav li li:hover a {
 
 .p40 {
 	padding: 40px;
-
 }
 
-.p80 {
-	padding: 80px;
-}
 
 .accent1 {
 	background: #36454F;
 	color: #fff;
 }
 
-
 .accent2 {
 	background: #333;
 	color: white;
 	margin-left: 100px;
 	margin-right: 100px;
-}
-
-
-.accent3 {
-	background: #000;
-	color: #ccc;
 }
 
 
@@ -162,16 +140,6 @@ nav li li:hover a {
 	text-align: justify;
 }
 
-.contactcontainer {
-	max-width: 1000px;
-	margin: 60px auto;
-	display: flex;
-	flex-wrap: wrap;
-	height: 800px;
-
-}
-
-
 .c100 {
 	width: 100%;
 	text-align: center;
@@ -182,30 +150,13 @@ nav li li:hover a {
 	height: 400px;
 }
 
-.c66 {
-	width: 66.666666%;
-}
 
 .c50 {
 	width: 50%;
 	padding-right: 30px;
 	padding-left: 30px;
 	text-align: justify;
-
 }
-
-.c50bot {
-	width: 50%;
-	text-align: center;
-	padding: 10px;
-
-}
-
-.c33 {
-	width: 33.333333%;
-	padding: 10px;
-}
-
 
 img {
 	width: auto;
@@ -229,7 +180,6 @@ img {
 
 .animateimg {
 	animation: animate 2s linear 1;
-
 }
 
 .animateform {
@@ -238,21 +188,10 @@ img {
 
 @media screen and (max-width: 800px) {
 
-	.column {
-		float: none;
-	}
-
-	.c33,
 	.c50,
 	.c100 {
 		width: 100%;
 	}
-
-	section {
-		display: block;
-		width: 100%;
-	}
-
 
 	nav {
 		position: fixed;
@@ -305,5 +244,10 @@ img {
 
 	nav li li:hover a {
 		background: #f00;
+	}
+
+	section {
+		display: block;
+		width: 100%;
 	}
 }
