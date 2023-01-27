@@ -1,299 +1,259 @@
-<!DOCTYPE html>
-<html lang="en">
+<!--
+Icons
+Animate
+Google font
+Mobile responsiveness
+
+Optimize:
+Color pallette
+Text formatting
+-->
+
+
+<!doctype html>
+
+<html>
 
 <head>
-	<meta charset="utf-8">
-	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-	<title>Gena Chelei - Cameraman</title>
-	<meta content="" name="description">
-	<meta content="" name="keywords">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-	<!-- Favicons -->
-	<link href="assets/img/favicon.png" rel="icon">
-	<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-	<!-- Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
-	<!-- Vendor CSS Files -->
-	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-	<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-	<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-	<link href="assets/vendor/aos/aos.css" rel="stylesheet">
-
-	<!-- Template Main CSS File -->
-	<link href="assets/css/main.css" rel="stylesheet">
-
-	<!-- =======================================================
-  * Template Name: PhotoFolio - v1.2.0
-  * Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+	<script src="https://kit.fontawesome.com/3e428fbdcd.js" crossorigin="anonymous"></script>
+	<title>Frants' Website
+	</title>
+	<link rel="stylesheet" href="style.css">
 </head>
+
 
 <body>
 
+	<!-- Style -->
 
-	<!-- ======= Header ======= -->
-	<header id="header" class="header d-flex align-items-center fixed-top">
-		<div class="container-fluid d-flex align-items-center justify-content-between">
+	<style>
+		a {
+			text-decoration: none;
+			color: #FFFFFF;
+		}
 
-			<a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
-				<!-- Uncomment the line below if you also wish to use an image logo -->
-				<!-- <img src="assets/img/logo.png" alt=""> -->
+		 .circle_image {
+            display: inline-block;
+            border-radius: 50%;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+        }
 
-				<i class="bi bi-film"></i>
-				<h1>Gena</h1>
-			</a>
+        .circle_image img {
+            width: 100%;
+            height: 100%;
+        }
 
-			<nav id="navbar" class="navbar">
+		@keyframes animate {
+			from {
+				opacity: 0;
+			}
+
+			to {
+				opacity: 1;
+			}
+
+			.circle_image {
+				display: inline-block;
+				border-radius: 50%;
+				overflow: hidden;
+				width: 100%;
+				height: 100%;
+			}
+
+			.circle_image img {
+				width: 100%;
+				height: 100%;
+			}
+
+		}
+
+		@media screen and (max-width: 800px) {
+
+			.c33,
+			.c50,
+			.c100 {
+				width: 100%;
+			}
+
+			.accent2 {
+				margin: 0px;
+			}
+
+			.accent1 {
+				margin: 0px;
+				padding: 10px;
+				padding-top: 20px;
+			}
+
+			.block1 {
+				order: 1;
+			}
+
+			.block3 {
+				order: 2;
+			}
+
+			.block2 {
+				order: 3;
+			}
+
+			.block4 {
+				order: 4;
+			}
+
+			.block5 {
+				order: 5;
+			}
+
+			.block7 {
+				order: 6;
+			}
+
+			.block6 {
+				order: 7;
+			}
+
+			.block8 {
+				order: 8;
+			}
+
+			.circle_image {
+				border-radius: 50%;
+				overflow: hidden;
+				width: 300px;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+			}
+
+			.circle_image img {
+				width: 100%;
+				height: 100%;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+			}
+		}
+
+	</style>
+
+	<!-- Hero -->
+	<section class="accent1 p40">
+		<div class="containertop">
+			<div class="c50">
+				<h1>About Me</h1>
+				<br>
+				My name is Frants and I live in NYC. In my spare time I love to watch and play soccer, travel, and learn new things. I am looking forward to a career change and would like to become a developer. Please contact me if you have any questions. Some of the things I have an interest in:
+				<br>
+				<br>
 				<ul>
-					<li><a href="index.html" class="active">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li><a href="services.html">Services</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li> Web Development <i class="fa-solid fa-code"></i> </li>
+					<li> Reading <i class="fa-solid fa-book"></i></li>
+					<li>Soccer <i class="fa-solid fa-futbol"></i> </li>
+					<li>Travelling <i class="fa-solid fa-plane"></i></li>
+					<br>
 				</ul>
-			</nav><!-- .navbar -->
-
-			<div class="header-social-links">
-
-				<a href="https://www.facebook.com/gena.chelei/" class="facebook"><i class="bi bi-facebook"></i></a>
-				<a href="https://www.instagram.com/cheleigena/" class="instagram"><i class="bi bi-instagram"></i></a>
-				<a href="https://www.youtube.com/@gena5731" class="youtube"><i class="bi bi-youtube"></i></a>
-				<a href="https://linkedin.com/in/gena-chelei" class="linkedin"><i class="bi bi-linkedin"></i></a>
-
 			</div>
-			<i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-			<i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-		</div>
-	</header><!-- End Header -->
 
-	<!-- ======= Hero Section ======= -->
-	<section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade" data-aos-delay="1500">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-6 text-center">
-					<h2>Hi, I'm <span>Gena </span>, Director of Photography and Cameraman</h2>
-					<p>Working on all types of video shooting and editing. Located in Slovakia and covering Europe</p>
-					<a href="contact.html" class="btn-get-started">Contact Me</a>
+			<div class="c50">
+				<div class="animateimg circle_image">
+					<img src="img/avatar.jpg">
 				</div>
 			</div>
 		</div>
-	</section><!-- End Hero Section -->
-
-	<!-- Photo Gallery -->
-
-	<main id="main" data-aos="fade" data-aos-delay="1500">
-
-		<!-- ======= Gallery Section ======= -->
-		<section id="gallery" class="gallery">
-			<div class="container-fluid">
-
-				<div class="row gy-4 justify-content-center">
-					<div class="col-xl-3 col-lg-4 col-md-6">
-						<div class="gallery-item h-100">
-							<img src="assets/img/gallery/gallery-1.jpg" class="img-fluid" alt="">
-							<div class="gallery-links d-flex align-items-center justify-content-center">
-								<a href="assets/img/gallery/gallery-1.jpg" title="Gallery 1" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-
-							</div>
-						</div>
-					</div><!-- End Gallery Item -->
-					<div class="col-xl-3 col-lg-4 col-md-6">
-						<div class="gallery-item h-100">
-							<img src="assets/img/gallery/gallery-2.jpg" class="img-fluid" alt="">
-							<div class="gallery-links d-flex align-items-center justify-content-center">
-								<a href="assets/img/gallery/gallery-2.jpg" title="Gallery 2" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-
-							</div>
-						</div>
-					</div><!-- End Gallery Item -->
-					<div class="col-xl-3 col-lg-4 col-md-6">
-						<div class="gallery-item h-100">
-							<img src="assets/img/gallery/gallery-3.jpg" class="img-fluid" alt="">
-							<div class="gallery-links d-flex align-items-center justify-content-center">
-								<a href="assets/img/gallery/gallery-3.jpg" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-
-							</div>
-						</div>
-					</div><!-- End Gallery Item -->
-					<div class="col-xl-3 col-lg-4 col-md-6">
-						<div class="gallery-item h-100">
-							<img src="assets/img/gallery/gallery-4.jpg" class="img-fluid" alt="">
-							<div class="gallery-links d-flex align-items-center justify-content-center">
-								<a href="assets/img/gallery/gallery-4.jpg" title="Gallery 4" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-
-							</div>
-						</div>
-					</div><!-- End Gallery Item -->
-					<div class="col-xl-3 col-lg-4 col-md-6">
-						<div class="gallery-item h-100">
-							<img src="assets/img/gallery/gallery-5.jpg" class="img-fluid" alt="">
-							<div class="gallery-links d-flex align-items-center justify-content-center">
-								<a href="assets/img/gallery/gallery-5.jpg" title="Gallery 5" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-
-							</div>
-						</div>
-					</div><!-- End Gallery Item -->
-					<div class="col-xl-3 col-lg-4 col-md-6">
-						<div class="gallery-item h-100">
-							<img src="assets/img/gallery/gallery-6.jpg" class="img-fluid" alt="">
-							<div class="gallery-links d-flex align-items-center justify-content-center">
-								<a href="assets/img/gallery/gallery-6.jpg" title="Gallery 6" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-
-							</div>
-						</div>
-					</div><!-- End Gallery Item -->
-					<div class="col-xl-3 col-lg-4 col-md-6">
-						<div class="gallery-item h-100">
-							<img src="assets/img/gallery/gallery-7.jpg" class="img-fluid" alt="">
-							<div class="gallery-links d-flex align-items-center justify-content-center">
-								<a href="assets/img/gallery/gallery-7.jpg" title="Gallery 7" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-
-							</div>
-						</div>
-					</div><!-- End Gallery Item -->
-					<div class="col-xl-3 col-lg-4 col-md-6">
-						<div class="gallery-item h-100">
-							<img src="assets/img/gallery/gallery-8.jpg" class="img-fluid" alt="">
-							<div class="gallery-links d-flex align-items-center justify-content-center">
-								<a href="assets/img/gallery/gallery-8.jpg" title="Gallery 8" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-
-							</div>
-						</div>
-					</div><!-- End Gallery Item -->
-					<div class="col-xl-3 col-lg-4 col-md-6">
-						<div class="gallery-item h-100">
-							<img src="assets/img/gallery/gallery-9.jpg" class="img-fluid" alt="">
-							<div class="gallery-links d-flex align-items-center justify-content-center">
-								<a href="assets/img/gallery/gallery-9.jpg" title="Gallery 9" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-
-							</div>
-						</div>
-					</div><!-- End Gallery Item -->
-					<div class="col-xl-3 col-lg-4 col-md-6">
-						<div class="gallery-item h-100">
-							<img src="assets/img/gallery/gallery-10.jpg" class="img-fluid" alt="">
-							<div class="gallery-links d-flex align-items-center justify-content-center">
-								<a href="assets/img/gallery/gallery-10.jpg" title="Gallery 10" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-
-							</div>
-						</div>
-					</div><!-- End Gallery Item -->
-					<div class="col-xl-3 col-lg-4 col-md-6">
-						<div class="gallery-item h-100">
-							<img src="assets/img/gallery/gallery-11.jpg" class="img-fluid" alt="">
-							<div class="gallery-links d-flex align-items-center justify-content-center">
-								<a href="assets/img/gallery/gallery-11.jpg" title="Gallery 11" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-
-							</div>
-						</div>
-					</div><!-- End Gallery Item -->
-					<div class="col-xl-3 col-lg-4 col-md-6">
-						<div class="gallery-item h-100">
-							<img src="assets/img/gallery/gallery-12.jpg" class="img-fluid" alt="">
-							<div class="gallery-links d-flex align-items-center justify-content-center">
-								<a href="assets/img/gallery/gallery-12.jpg" title="Gallery 12" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-
-							</div>
-						</div>
-					</div><!-- End Gallery Item -->
-					<div class="col-xl-3 col-lg-4 col-md-6">
-						<div class="gallery-item h-100">
-							<img src="assets/img/gallery/gallery-13.jpg" class="img-fluid" alt="">
-							<div class="gallery-links d-flex align-items-center justify-content-center">
-								<a href="assets/img/gallery/gallery-13.jpg" title="Gallery 13" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-
-							</div>
-						</div>
-					</div><!-- End Gallery Item -->
-					<div class="col-xl-3 col-lg-4 col-md-6">
-						<div class="gallery-item h-100">
-							<img src="assets/img/gallery/gallery-14.jpg" class="img-fluid" alt="">
-							<div class="gallery-links d-flex align-items-center justify-content-center">
-								<a href="assets/img/gallery/gallery-14.jpg" title="Gallery 14" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-
-							</div>
-						</div>
-					</div><!-- End Gallery Item -->
-					<div class="col-xl-3 col-lg-4 col-md-6">
-						<div class="gallery-item h-100">
-							<img src="assets/img/gallery/gallery-15.jpg" class="img-fluid" alt="">
-							<div class="gallery-links d-flex align-items-center justify-content-center">
-								<a href="assets/img/gallery/gallery-15.jpg" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-
-							</div>
-						</div>
-					</div><!-- End Gallery Item -->
-					<div class="col-xl-3 col-lg-4 col-md-6">
-						<div class="gallery-item h-100">
-							<img src="assets/img/gallery/gallery-16.jpg" class="img-fluid" alt="">
-							<div class="gallery-links d-flex align-items-center justify-content-center">
-								<a href="assets/img/gallery/gallery-16.jpg" title="Gallery 16" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-
-							</div>
-						</div>
-					</div><!-- End Gallery Item -->
+	</section>
 
 
+	<!-- Middle Part -->
 
 
-
-
-
-
-					<!-- End Gallery Item -->
-
-				</div>
-
+	<section class="accent2 p10">
+		<div class="containerbottom">
+			<div class="c50 block1">
+				<h1>Where I Want to Be</h1>
+				<p>Taking a full-stack web development class at CUNY City Tech in order to be able to do a career change from financial field to a role in web development</p>
+				<br>
 			</div>
-		</section><!-- End Gallery Section -->
 
-	</main><!-- End #main -->
+			<div class="c50 block2">
+				<h1>Where I Am Now</h1>
+				<p>10+ year career in a financial field with knowledge of retail and commercial banking, KYC, compliance and process and software testing. ACAMS certified. Please click <a href="https://www.linkedin.com/in/frants-kavalionak/"><i class="fa-brands fa-linkedin"></i></a> for my LinkedIn</p>
+				<br>
+			</div>
+
+			<div class="c50 block3">
+				<img src="img/webdev.jpg">
+			</div>
+
+			<div class="c50 block4">
+				<img src="img/compliance.jpg">
+			</div>
 
 
 
+			<div class="c50 block5">
+				<h1>Hobbies and Personal</h1>
+				<p>In my spare time, I am most likely watching or playing soccer, reading books, travelling and enjoying life</p>
+				<br>
+			</div>
 
+			<div class="c50 block6">
+				<h1>Photo Gallery</h1>
+				<p>Some of the photos of the places I visited in the past year. Most photos are from Europe. Click the picture below to access </p>
+				<br>
+			</div>
 
+			<div class="c50 block7">
+				<img src="img/soccer.jpg">
+			</div>
 
-
-
-
-	<!-- Photo Gallery End -->
-	<!-- ======= Footer ======= -->
-	<footer id="footer" class="footer">
-		<div class="container">
-			<div class="copyright">
-				&copy; Copyright <strong><span>PhotoFolio</span></strong>. All Rights Reserved
+			<div class="c50 block8">
+				<a href=photogallery.html> <img src="img/travel.jpg"></a>
 			</div>
 
 		</div>
-	</footer><!-- End Footer -->
 
-	<a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+		<!-- Bottom Part -->
 
-	<div id="preloader">
-		<div class="line"></div>
-	</div>
+	</section>
 
-	<!-- Vendor JS Files -->
-	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-	<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-	<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-	<script src="assets/vendor/aos/aos.js"></script>
-	<script src="assets/vendor/php-email-form/validate.js"></script>
+	<section class="accent1 p40">
+		<div class="containerfooter">
+			<div class="c100">
+				<p>Please use
+					<a href="https://www.linkedin.com/in/frants-kavalionak/"><i class="fa-brands fa-2x fa-linkedin"></i>
+						or contact form on this website for contact.
+					</a>
+				</p>
+			</div>
+		</div>
+	</section>
 
-	<!-- Template Main JS File -->
-	<script src="assets/js/main.js"></script>
+	<!-- Header (used on the bottom for priority ove image animation on top) -->
 
+	<header>
+		<div id="headerlogo">
+			<a href="index.html"><img src="img/logo.gif" alt="Logo"></a>
+		</div>
 
+		<nav>
+			<ul>
 
+				<li><a href="index.html">Home</a></li>
+				<li><a href="photogallery.html">Photos</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
 </body>
 
 </html>
